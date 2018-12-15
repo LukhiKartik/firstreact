@@ -1,7 +1,6 @@
 import React from 'react';
 
-<<<<<<< Updated upstream
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -25,24 +24,4 @@ class App extends Component {
 }
 
 export default App;
-=======
-class App extends React.Component {
-   constructor(props) {
-      super(props);
 
-      this.state = {
-         header: "Header from state",
-         content: "Content from state"
-      }
-   }
-   rendor() {
-      return (
-         <div>
-            <h1>{this.state.header}</h1>
-            <h2>{this.state.content}</h2>
-         </div>
-      );
-   }
-}
-export default App;
->>>>>>> Stashed changes
